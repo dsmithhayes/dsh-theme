@@ -1,0 +1,8 @@
+{
+	"install": {
+		"path": {
+			"css": "dist/css",
+			"js": "dist/js"
+		}
+	}
+}

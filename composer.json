@@ -1,13 +1,17 @@
 {
-  "name": "upstatement/timber-starter-theme",
-  "description": "Starter theme to build a Timber theme",
+  "name": "dsmithhayes/dsh-theme",
+  "description": "Theme for davesmithhayes.com forked from the Timber Stater Theme.",
   "type":"wordpress-theme",
   "minimum-stability" : "stable",
   "authors": [
-      {
-          "name": "jarednova",
-          "email": "jared@upstatement.com"
-      }
+    {
+      "name": "jarednova",
+      "email": "jared@upstatement.com"
+    },
+    {
+      "name": "Dave Smith-Hayes",
+      "email": "me@davesmithhayes.com"
+    }
   ],
   "repositories": [
     {
@@ -16,14 +20,14 @@
     }
   ],
   "extra": {
-  	"installer-paths": {
+    "installer-paths": {
       "../../plugins/{$name}/": [
         "wpackagist-plugin/*",
         "type:wordpress-plugin"
       ]
-  	}
-	},
+    }
+  },
   "require": {
-	  "wpackagist-plugin/timber-library": "0.22.*"
+    "wpackagist-plugin/timber-library": "1.2.*"
   }
 }
