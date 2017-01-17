@@ -5,12 +5,8 @@ $max-width: 1000px;
   padding: 2em;
   margin: 0 auto;
 
-  a {
-    color: $orange;
-
-    &:hover {
-      color: $green;
-    }
+  a:hover {
+    text-decoration: none;
   }
 
   .post-tease {
