@@ -12,4 +12,18 @@ $max-width: 1000px;
       color: $green;
     }
   }
+
+  .post-tease {
+    border-bottom: 1px solid $base1;
+    margin: 2em 0;
+
+    &:first-of-type {
+      margin-top: 0;
+    }
+
+    &:last-of-type {
+      margin-bottom: 0;
+      border-bottom: 0;
+    }
+  }
 }

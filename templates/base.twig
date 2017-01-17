@@ -17,10 +17,6 @@
       {% endblock %}
     </header>
 
-    <nav id="nav-main" class="nav-main" role="navigation">
-      {% include "menu.twig" with {'menu': menu.get_items} %}
-    </nav><!-- #nav -->
-
     <section id="content" role="main" class="content-wrapper">
       {% if title %}<h1>{{title}}</h1>{% endif %}
       <div class="wrapper {{sidebar_class}}">
