@@ -1,0 +1,15 @@
+$max-width: 1000px;
+
+.content-wrapper {
+  width: $max-width;
+  padding: 2em;
+  margin: 0 auto;
+
+  a {
+    color: $orange;
+
+    &:hover {
+      color: $green;
+    }
+  }
+}

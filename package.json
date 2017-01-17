@@ -2,6 +2,10 @@
   "dependencies": {
     "bower": "^1.8.0",
     "grunt": "^1.0.1",
-    "grunt-sass": "^2.0.0"
+    "grunt-autoprefixer": "^3.0.4",
+    "grunt-contrib-watch": "^1.0.0",
+    "grunt-postcss": "^0.8.0",
+    "grunt-sass": "^2.0.0",
+    "lost": "^8.0.0"
   }
 }

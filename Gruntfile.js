@@ -7,9 +7,16 @@ module.exports = function (grunt) {
           'style.css' : 'static/scss/main.scss'
         }
       }
+    },
+    watch: {
+      css: {
+        files: [ 'static/scss/**/*.scss' ],
+        tasks: ['sass']
+      }
     }
   });
 
   grunt.loadNpmTasks('grunt-sass');
-  grunt.registerTask('default', ['sass']);
+  grunt.loadNpmTasks('grunt-contrib-watch');
+  grunt.registerTask('default', ['watch']);
 };
