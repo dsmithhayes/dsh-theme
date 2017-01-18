@@ -13,6 +13,10 @@ $max-width: 1000px;
     width: 100%;
   }
 
+  @media screen and (max-width: 800px) {
+    padding: 0.5em;
+  }
+
   h1, h2, h3, h4, h5, h6 {
     font-family: 'Lato Bold';
     letter-spacing: 2px;
@@ -57,6 +61,7 @@ $max-width: 1000px;
     background-color: $base2;
     border-radius: 5px;
     border: 1px solid $base1;
+    font-family: 'Lato Light';
 
     h1 {
       box-sizing: border-box;
@@ -64,7 +69,6 @@ $max-width: 1000px;
       margin: 0 0 0.5em 0;
       padding: 0;
       font-size: 28px;
-      font-family: 'Lato Light';
       letter-spacing: 1pt;
     }
 
