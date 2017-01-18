@@ -1,4 +1,12 @@
 footer {
+  font-weight: 300;
   width: 100%;
   padding: 1em;
+  box-sizing: border-box;
+
+  border-top: 1px solid $base1;
+
+  @media screen and (max-width: 800px) {
+    text-align: center;
+  }
 }

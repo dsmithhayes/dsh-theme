@@ -2,5 +2,4 @@ vendor
 wp-content
 node_modules
 composer.lock
-style.css
 dist/*
