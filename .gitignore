@@ -2,4 +2,5 @@ vendor
 wp-content
 node_modules
 composer.lock
-dist/*
+dist/css
+dist/js

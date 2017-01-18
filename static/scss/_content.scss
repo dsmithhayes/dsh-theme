@@ -4,11 +4,22 @@ $max-width: 1000px;
   width: $max-width;
   padding: 2em;
   margin: 0 auto;
-  font-size: 18px;
+  font-size: 22px;
   box-sizing: border-box;
+
+  font-family: 'Crimson Text', serif;
 
   @media screen and (max-width: $max-width) {
     width: 100%;
+  }
+
+  h1, h2, h3, h4, h5, h6 {
+    font-family: 'Lato Bold';
+    letter-spacing: 2px;
+
+    a {
+      text-decoration: none;
+    }
   }
 
   a:hover {
@@ -17,6 +28,12 @@ $max-width: 1000px;
 
   article {
     padding-bottom: 0.5em;
+
+    code {
+      font-size: 16px;
+      background-color: $base2;
+      padding: 0.1em 0.25em;
+    }
   }
 
   .post-tease {
@@ -46,8 +63,8 @@ $max-width: 1000px;
       width: 100%;
       margin: 0 0 0.5em 0;
       padding: 0;
-      font-weight: 300;
       font-size: 28px;
+      font-family: 'Lato Light';
     }
 
     ul {
@@ -81,6 +98,8 @@ $max-width: 1000px;
     border-radius: 5px;
     overflow: auto;
     line-height: 1.25em;
+
+    font-family: 'Ubuntu Mono';
   }
 
   .article-content {
@@ -90,7 +109,7 @@ $max-width: 1000px;
     }
 
     .blog-author {
-      font-weight: 300;
+      font-family: 'Lato Light';
       border-bottom: 1px solid $base2;
     }
   }
