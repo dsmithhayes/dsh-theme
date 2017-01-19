@@ -42,7 +42,11 @@ $max-width: 1000px;
 
   .post-tease {
     border-bottom: 1px solid $base1;
-    margin: 1em;
+    margin-bottom: 1em;
+
+    h2 {
+      margin-top: 0;
+    }
 
     &:first-of-type {
       margin-top: 0;
