@@ -29,5 +29,10 @@
   },
   "require": {
     "wpackagist-plugin/timber-library": "1.2.*"
+  },
+  "autoload": {
+    "psr-4": {
+      "DshTheme\\": "src/"
+    }
   }
 }

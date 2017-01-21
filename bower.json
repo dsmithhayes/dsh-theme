@@ -1,8 +1,6 @@
 {
-	"install": {
-		"path": {
-			"css": "dist/css",
-			"js": "dist/js"
-		}
-	}
+  "name": "dsh-theme",
+  "dependencies": {
+    "highlight": "^9.9.0"
+  }
 }
