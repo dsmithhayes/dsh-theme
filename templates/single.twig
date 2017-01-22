@@ -16,12 +16,12 @@
   <div class="pagination">
     {% if post.prev %}
       <div class="col">
-        <a href="{{ post.prev.link }}" class="button">{{ post.prev.title }}</a>
+        <a href="{{ post.prev.link }}" class="button">Previous: {{ post.prev.title }}</a>
       </div>
     {% endif %}
     {% if post.next %}
       <div class="col">
-        <a href="{{ post.next.link }}" class="button">{{ post.next.title }}</a>
+        <a href="{{ post.next.link }}" class="button">Next: {{ post.next.title }}</a>
       </div>
     {% endif %}
   </div>
