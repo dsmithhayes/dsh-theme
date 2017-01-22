@@ -118,7 +118,7 @@ $max-width: 1000px;
     line-height: 1.25em;
     width: inherit;
 
-    font-family: 'Ubuntu Mono';
+    font-family: 'Ubuntu Mono' monospace;
 
     @media screen and (max-width: 800px) {
       margin: 0.5em 0.25em;
