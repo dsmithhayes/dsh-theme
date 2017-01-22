@@ -7,19 +7,17 @@
 
   {% if pagination %}
     <div class="pagination">
-      <ul>
-        {% if pagination.next %}
-        <li>
-          <a href="{{ pagination.next.link }}" class="button">Next</a>
-        </li>
-        {% endif %}
+      {% if pagination.prev %}
+      <div class="col">
+        <a href="{{ pagination.prev.link }}" class="button">Previous</a>
+      </div>
+      {% endif %}
 
-        {% if pagination.prev %}
-          <li>
-            <a href="{{ pagination.prev.link }}" class="button">Previous</a>
-          </li>
-        {% endif %}
-      </ul>
+      {% if pagination.next %}
+      <div class="col">
+        <a href="{{ pagination.next.link }}" class="button">Next</a>
+      </div>
+      {% endif %}
     </div>
   {% endif %}
 {% endblock %}

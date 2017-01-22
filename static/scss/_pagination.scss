@@ -1,14 +1,13 @@
 .pagination {
-  ul {
-    margin: 0;
-    padding: 0;
-    width: 100%;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  display: table;
+  box-sizing: border-box;
+  overflow: hidden;
 
-    li {
-      list-style-type: none;
-      display: inline-block;
-      width: 49%;
-      display: flexbox;
-    }
+  .col {
+    display: table-cell;
+    width: 50%;
   }
 }

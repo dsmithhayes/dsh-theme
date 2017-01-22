@@ -148,6 +148,7 @@ $max-width: 1000px;
 
 .to-top {
   width: $max-width;
+  clear: both;
 
   @media screen and (max-width: $max-width) {
     width: 100%;
@@ -156,5 +157,5 @@ $max-width: 1000px;
   margin: 0 auto;
   box-sizing: border-box;
   text-align: center;
-  padding-bottom: 1em;
+  padding: 2em 0;
 }

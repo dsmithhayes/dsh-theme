@@ -14,18 +14,16 @@
   </article>
 
   <div class="pagination">
-    <ul>
-      {% if post.prev %}
-        <li>
-          <a href="{{ post.prev.link }}" class="button">{{ post.prev.title }}</a>
-        </li>
-      {% endif %}
-      {% if post.next %}
-        <li>
-          <a href="{{ post.next.link }}" class="button">{{ post.next.title }}</a>
-        </li>
-      {% endif %}
-    </ul>
+    {% if post.prev %}
+      <div class="col">
+        <a href="{{ post.prev.link }}" class="button">{{ post.prev.title }}</a>
+      </div>
+    {% endif %}
+    {% if post.next %}
+      <div class="col">
+        <a href="{{ post.next.link }}" class="button">{{ post.next.title }}</a>
+      </div>
+    {% endif %}
   </div>
 {% endblock %}
 
