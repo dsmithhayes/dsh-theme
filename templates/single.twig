@@ -15,12 +15,16 @@
 
   <div class="pagination">
     <ul>
-      <li>
-        <a href="{{ post.prev.link }}" class="button">{{ post.prev.title }}</a>
-      </li>
-      <li>
-        <a href="{{ post.next.link }}" class="button">{{ post.next.title }}</a>
-      </li>
+      {% if post.prev %}
+        <li>
+          <a href="{{ post.prev.link }}" class="button">{{ post.prev.title }}</a>
+        </li>
+      {% endif %}
+      {% if post.next %}
+        <li>
+          <a href="{{ post.next.link }}" class="button">{{ post.next.title }}</a>
+        </li>
+      {% endif %}
     </ul>
   </div>
 {% endblock %}
