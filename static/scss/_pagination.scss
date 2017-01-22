@@ -1,0 +1,14 @@
+.pagination {
+  ul {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+
+    li {
+      list-style-type: none;
+      display: inline-block;
+      width: 49%;
+      display: flexbox;
+    }
+  }
+}

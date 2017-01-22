@@ -1,0 +1,12 @@
+a.button {
+  display: block;
+  padding: 0.5em;
+  font-family: 'Lato Regular';
+  background-color: $base2;
+  text-align: center;
+
+  &:hover {
+    background-color: $base02;
+    color: $base3;
+  }
+}
