@@ -50,27 +50,28 @@ $max-width: 1000px;
 
     .wp-caption {
       max-width: 95%;
+      margin: 0 auto;
 
       img {
         max-width: 95%;
         height: auto;
       }
+    }
 
-      & .alignleft {
-        float: left;
-      }
+    .alignleft {
+      float: left;
+    }
 
-      & .alignright {
-        float: right;
-      }
+    .alignright {
+      float: right;
+    }
 
-      & .aligncenter {
-        margin: 0 auto;
-      }
+    .aligncenter {
+      margin: 0 auto;
+    }
 
-      & .alignnone {
-        margin: 0 auto;
-      }
+    .alignnone {
+      margin: 0 auto;
     }
   }
 
