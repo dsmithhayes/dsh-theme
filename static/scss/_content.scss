@@ -56,6 +56,12 @@ $max-width: 1000px;
         max-width: 95%;
         height: auto;
       }
+
+      .wp-caption-text {
+        color: $base2;
+        font-size: 14px;
+        font-style: italic;
+      }
     }
 
     .alignleft {
