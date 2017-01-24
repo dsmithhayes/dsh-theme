@@ -5,7 +5,7 @@
     <section class="article-content">
       <h1 class="article-h1">{{post.title}}</h1>
       <p class="blog-author">
-        Posted by {{ post.author.name }} </a> on {{ post.post_date|date}}
+        {{ post.post_date|date}}
       </p>
       <div class="article-body">
         {{post.content}}
