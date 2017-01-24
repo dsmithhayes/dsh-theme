@@ -56,19 +56,19 @@ $max-width: 1000px;
         height: auto;
       }
 
-      & > .alignleft {
+      & .alignleft {
         float: left;
       }
 
-      & > .alignright {
+      & .alignright {
         float: right;
       }
 
-      & > .aligncenter {
+      & .aligncenter {
         margin: 0 auto;
       }
 
-      & > .alignnone {
+      & .alignnone {
         margin: 0 auto;
       }
     }
