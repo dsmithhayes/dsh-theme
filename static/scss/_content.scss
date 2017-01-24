@@ -47,6 +47,29 @@ $max-width: 1000px;
       background-color: $base2;
       padding: 0.1em 0.25em;
     }
+
+    .wp-caption {
+      img {
+        max-width: 95%;
+        height: auto;
+      }
+
+      & > .alignleft {
+        float: left;
+      }
+
+      & > .alignright {
+        float: right;
+      }
+
+      & > .aligncenter {
+        margin: 0 auto;
+      }
+
+      & > .alignnone {
+        margin: 0 auto;
+      }
+    }
   }
 
   .post-tease {
