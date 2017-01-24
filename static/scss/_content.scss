@@ -53,13 +53,14 @@ $max-width: 1000px;
       margin: 0 auto;
 
       img {
-        max-width: 95%;
+        max-width: 100%;
         height: auto;
       }
 
       .wp-caption-text {
         color: $base01;
         font-style: italic;
+        margin: 0.5em 2em 1em 0;
       }
     }
 
